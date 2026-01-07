@@ -1,5 +1,3 @@
-import packageJson from "../package.json";
-
 export function Footer() {
   return (
     <footer className="mt-auto py-6 px-4 border-t border-gray-200 dark:border-gray-700 bg-white/50 dark:bg-gray-900/50 backdrop-blur-sm">
@@ -29,7 +27,7 @@ export function Footer() {
           </div>
 
           <div className="text-gray-500 dark:text-gray-500 font-mono text-xs">
-            v{packageJson.version}
+            v1.0.0
           </div>
         </div>
       </div>
