@@ -1,48 +1,25 @@
 export function Footer() {
   return (
-    <footer className="mt-auto py-6 px-4 border-t border-gray-200 dark:border-gray-700 bg-white/50 dark:bg-gray-900/50 backdrop-blur-sm">
+    <footer className="mt-auto py-4 px-4 border-t border-gray-200 dark:border-gray-700 bg-white/50 dark:bg-gray-900/50 backdrop-blur-sm">
       <div className="container mx-auto max-w-6xl">
-        <div className="space-y-4">
-          {/* Top row */}
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
-            <div className="text-gray-600 dark:text-gray-400">
-              © 2026 Theodore Chaikalis
-            </div>
-
-            <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
-              <svg
-                className="w-4 h-4 text-green-600 dark:text-green-400"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                />
-              </svg>
-              <span className="text-xs md:text-sm">
-                No sensitive data is captured or stored
-              </span>
-            </div>
-
-            <div className="text-gray-500 dark:text-gray-500 font-mono text-xs">
-              v1.0.0
-            </div>
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-3 text-xs text-gray-500 dark:text-gray-400">
+          {/* Left: Copyright */}
+          <div className="flex items-center gap-2">
+            <span>© 2026 Theodore Chaikalis</span>
+            <span className="hidden lg:inline text-gray-400">•</span>
+            <span className="font-mono">v1.0.0</span>
           </div>
 
-          {/* Bottom row */}
-          <div className="flex flex-col md:flex-row items-center justify-center gap-3 text-xs text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700 pt-4">
+          {/* Right: Links */}
+          <div className="flex flex-col sm:flex-row items-center gap-3">
             <a
               href="https://github.com/teohaik/Sui-Message-Signer"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-gray-700 dark:hover:text-gray-300 transition-colors"
+              className="flex items-center gap-1.5 hover:text-gray-700 dark:hover:text-gray-300 transition-colors"
             >
               <svg
-                className="w-4 h-4"
+                className="w-3.5 h-3.5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -52,16 +29,16 @@ export function Footer() {
                   clipRule="evenodd"
                 />
               </svg>
-              <span>View on GitHub</span>
+              <span>GitHub</span>
             </a>
-            <span className="hidden md:inline text-gray-400">•</span>
+            <span className="hidden sm:inline text-gray-400">•</span>
             <a
               href="https://claude.com/claude-code"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-gray-700 dark:hover:text-gray-300 transition-colors"
+              className="flex items-center gap-1.5 hover:text-gray-700 dark:hover:text-gray-300 transition-colors"
             >
-              <span>Proudly vibe-coded with</span>
+              <span>Vibe-coded with</span>
               <span className="font-semibold text-blue-600 dark:text-blue-400">Claude Code</span>
             </a>
           </div>
