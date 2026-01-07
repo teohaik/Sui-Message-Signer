@@ -1,6 +1,6 @@
 {
   "name": "custom-sui-signer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sui Message Signer dApp",
   "scripts": {
     "dev": "next dev",

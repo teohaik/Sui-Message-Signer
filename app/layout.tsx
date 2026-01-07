@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   keywords: ["Sui", "wallet", "signature", "message signing", "blockchain", "dApp", "Slush wallet", "cryptography"],
   authors: [{ name: "Theodore Chaikalis" }],
   creator: "Theodore Chaikalis",
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+  },
   openGraph: {
     title: "Sui Message Signer",
     description: "Sign and verify messages with your Sui wallet",

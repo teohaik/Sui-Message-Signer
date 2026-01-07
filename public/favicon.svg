@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#3B82F6"/>
+
+  <!-- Message/Document icon -->
+  <rect x="16" y="18" width="32" height="28" rx="3" fill="white"/>
+
+  <!-- Message lines -->
+  <rect x="21" y="24" width="22" height="2" rx="1" fill="#3B82F6"/>
+  <rect x="21" y="30" width="16" height="2" rx="1" fill="#3B82F6"/>
+
+  <!-- Signature pen at angle -->
+  <path d="M42 34L48 40L46 42L40 36L42 34Z" fill="#10B981"/>
+  <path d="M48 40L50 42C50.5 42.5 50.5 43.5 50 44L48 46L44 42L46 40L48 40Z" fill="#059669"/>
+
+  <!-- Signature line -->
+  <path d="M21 36C21 36 26 38 30 36C34 34 37 37 37 37" stroke="#10B981" stroke-width="2" stroke-linecap="round"/>
+</svg>

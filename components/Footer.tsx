@@ -7,7 +7,7 @@ export function Footer() {
           <div className="flex items-center gap-2">
             <span>© 2026 Theodore Chaikalis</span>
             <span className="hidden lg:inline text-gray-400">•</span>
-            <span className="font-mono">v1.0.0</span>
+            <span className="font-mono">v1.0.1</span>
           </div>
 
           {/* Right: Links */}
